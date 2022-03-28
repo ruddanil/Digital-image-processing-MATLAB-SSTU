@@ -1,9 +1,9 @@
-IMG1 = imread("Bad.jpg"); 
+%IMG1 = imread("Bad.jpg"); 
 %IMG1 = imread("Good.jpg"); 
 %IMG1 = imread("VeryGood.jpg"); 
-%IMG1 = imread("123.jpg");
+IMG1 = imread("123.jpg");
 
-IMG1 = rgb2gray(IMG1); % перевод в чб
+%IMG1 = rgb2gray(IMG1); % перевод в чб
 IMG = im2double(IMG1);
 [y, x] = size(IMG);
 
@@ -19,7 +19,7 @@ end
 
 subplot(2,2,1); imshow(IMG);
 subplot(2,2,2); imhist(IMG);
-subplot(2,2,3); imshow(NEWIMG); 
+subplot(2,2,3); imshow(NEWIMG);
 subplot(2,2,4); imhist(NEWIMG);
 
 %Ymax = double((Xmax^2)/2);
