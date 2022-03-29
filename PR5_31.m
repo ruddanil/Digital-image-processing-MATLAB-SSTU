@@ -1,7 +1,7 @@
 %IMG1 = imread("Bad.jpg"); 
 %IMG1 = imread("Good.jpg"); 
 %IMG1 = imread("VeryGood.jpg"); 
-IMG1 = imread("123.jpg");
+IMG1 = imread("IMG\123.jpg");
 
 %IMG1 = rgb2gray(IMG1); % перевод в чб
 IMG = im2double(IMG1);
