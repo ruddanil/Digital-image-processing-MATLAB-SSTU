@@ -22,5 +22,3 @@ subplot(2,2,2); imhist(IMG);
 subplot(2,2,3); imshow(NEWIMG);
 subplot(2,2,4); imhist(NEWIMG);
 
-%Ymax = double((Xmax^2)/2);
-%K = double(255/Ymax);
